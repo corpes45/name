@@ -1,0 +1,248 @@
+local function NIGGA()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MainGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ODMspeed = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local MaxDamage = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+
+--Properties:
+
+MainGui.Name = "MainGui"
+MainGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = MainGui
+Frame.BackgroundColor3 = Color3.fromRGB(25, 22, 33)
+Frame.ClipsDescendants = true
+Frame.Position = UDim2.new(0.664429545, 0, 0.0782997906, 0)
+Frame.Size = UDim2.new(0, 224, 0, 379)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel.Position = UDim2.new(0, 0, -0.0110086324, 0)
+TextLabel.Size = UDim2.new(0, 224, 0, 23)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Titan Warfare "
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 19.000
+
+Frame_2.Parent = TextLabel
+Frame_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.785714269, 0)
+Frame_2.Size = UDim2.new(0, 224, 0, 18)
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 224, 0, 18)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "va#1622"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 11.000
+TextLabel_2.TextWrapped = true
+
+UICorner.Parent = TextLabel
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(196, 178, 255)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(220, 205, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = TextLabel
+
+UICorner_2.Parent = Frame
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BackgroundTransparency = 1.000
+Frame_3.Position = UDim2.new(0, 0, 0.142137438, 0)
+Frame_3.Size = UDim2.new(0, 224, 0, 407)
+
+UICorner_3.Parent = Frame_3
+
+ScrollingFrame.Parent = Frame_3
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, -0.00765308877, 0)
+ScrollingFrame.Size = UDim2.new(0, 224, 0, 225)
+ScrollingFrame.ScrollBarThickness = 6
+
+ODMspeed.Name = "ODM speed"
+ODMspeed.Parent = ScrollingFrame
+ODMspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ODMspeed.BorderColor3 = Color3.fromRGB(104, 104, 104)
+ODMspeed.BorderSizePixel = 2
+ODMspeed.ClipsDescendants = true
+ODMspeed.Position = UDim2.new(0.202231139, 0, 0.0674705133, 0)
+ODMspeed.Size = UDim2.new(0, 133, 0, 9)
+
+TextButton.Parent = ODMspeed
+TextButton.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0902255625, 0, 0.477430582, 0)
+TextButton.Size = UDim2.new(0, 25, 0, 24)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.160714284, 0, 0.0338022113, 0)
+TextLabel_3.Size = UDim2.new(0, 77, 0, 9)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "ODM Speed"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 0.900
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BorderSizePixel = 4
+TextLabel_4.Position = UDim2.new(0.160714284, 0, -0.0505100489, 0)
+TextLabel_4.Size = UDim2.new(0, 155, 0, 258)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+UICorner_4.Parent = TextLabel_4
+
+MaxDamage.Name = "Max Damage"
+MaxDamage.Parent = Frame_3
+MaxDamage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MaxDamage.BorderColor3 = Color3.fromRGB(104, 104, 104)
+MaxDamage.BorderSizePixel = 2
+MaxDamage.ClipsDescendants = true
+MaxDamage.Position = UDim2.new(0.20223099, 0, 0.259116709, 0)
+MaxDamage.Size = UDim2.new(0, 16, 0, 9)
+
+TextButton_2.Parent = MaxDamage
+TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.45136261, 0, 0.477430552, 0)
+TextButton_2.Size = UDim2.new(0, 36, 0, 24)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextLabel_5.Parent = Frame_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.151785731, 0, 0.195964366, 0)
+TextLabel_5.Size = UDim2.new(0, 77, 0, 9)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Max Damage"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+-- Scripts:
+
+local function KTQX_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(KTQX_fake_script)()
+local function NJAAX_fake_script() -- ODMspeed.LocalScript 
+	local script = Instance.new('LocalScript', ODMspeed)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	
+	local aux = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Upbolt/Hydroxide/revision/ohaux.lua"))()
+	
+	local scriptPath = game:GetService("ReplicatedFirst").Dependencies.ODM
+	local closureName = "handleUserInputs"
+	local upvalueIndex = 1
+	local closureConstants = {
+		[1] = "_G",
+		[2] = aux.placeholderUserdataConstant,
+		[3] = "IS_XBOX",
+		[4] = "disabled",
+		[5] = "KeyCode",
+		[6] = "UserInputState"
+	}
+	
+	local value = 100
+	local elementIndex = "speed"
+	
+	coroutine.wrap(function()
+		while task.wait() do
+			local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
+			debug.getupvalue(closure, upvalueIndex)[elementIndex] = value
+		end
+	end)()
+	
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			value = Precent * 100
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(NJAAX_fake_script)()
+
+game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+    task.wait(5)
+   NIGGA()
+end)
+
+end
+
+NIGGA()
+game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+    task.wait(5)
+   NIGGA()
+end)
+
+local damp = 1530 -- Maximum is probably 1530 don't go any further than 1530 you'll get kicked.
+local oldm
+oldm = hookmetamethod(game, "__namecall", function(...)
+    local gnmc = getnamecallmethod()
+    local args = {...}
+    if gnmc:lower() == "fireserver" and tostring(args[1]) == "Hit" then
+        args[3] = damp
+        return oldm(unpack(args))
+    end
+    return oldm(...)
+end)
